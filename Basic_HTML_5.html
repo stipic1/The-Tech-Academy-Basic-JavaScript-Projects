@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p>Seeing if 0 / 0 is a number.</p>
+    <p id="nan" onclick="nanFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Seeing if the string "hello" is not a number.</p>
+    <p id="string" onclick="stringFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Seeing if 888 is not a number.</p>
+    <p id="number" onclick="numberFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Seeing if 5E500 is too big of a number.</p>
+    <p id="positiveInfinity" onclick="posInfinityFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Seeing if -5E500 is too big of a number.</p>
+    <p id="negativeInfinity" onclick="negInfinityFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Using Boolean logic to see if 12 > 5 is true.</p>
+    <p id="booleanTrue" onclick="trueBooleanFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Using Boolean logic to see if 12 < 5 is false.</p>
+    <p id="booleanFalse" onclick="falseBooleanFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Using type coersion on string "12" + 5.</p>
+    <p id="typeCoercion" onclick="typeCoercionFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Using double equal comparison to show that 5 == 5 is true.</p>
+    <p id="doubleEqualTrue" onclick="trueDoubleEqualFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Using double equal comparison to show that 5 == 4 is false.</p>
+    <p id="doubleEqualFalse" onclick="falseDoubleEqualFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Using triple equal comparison to show that a === b is true if variable a = 25 and variable b = 25.</p>
+    <p id="tripleTrue" onclick="trueTripleFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Using triple equal comparison to show that a === b is false if variable a = 25 and variable b = "cat".</p>
+    <p id="tripleFalse1" onclick="falseTripleFunction1()">Click Here</p>
+    <br>
+    <br>
+    <p>Using triple equal comparison to show that a === b is false if variable a = 25 and variable b = "25".</p>
+    <p id="tripleFalse2" onclick="falseTripleFunction2()">Click Here</p>
+    <br>
+    <br>
+    <p>Using triple equal comparison to show that a === b is false if variable a = 25 and variable b = 50.</p>
+    <p id="tripleFalse3" onclick="falseTripleFunction3()">Click Here</p>
+    <br>
+    <br>
+    <p>Using the AND operator to show 5 > 2 && 3 < 8 is true because both expressions are true.</p>
+    <p id="andTrue" onclick="andTrueFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Using the AND operator to show 5 > 2 && 3 > 8 is false because one is true and the other false.</p>
+    <p id="andFalse" onclick="andFalseFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Using the OR operator to show 5 > 2 || 3 > 8 is true because one is true and the other is false.</p>
+    <p id="orTrue" onclick="orTrueFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Using the OR operator to show 5 < 2 || 3 > 8 is false because both are false. </p>
+    <p id="orFalse" onclick="orFalseFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Using the NOT operator to show that 50 > 100 is true because it is false... chew on that one.</p>
+    <p id="notOperatorTrue" onclick="notOperatorTrueFunction()">Click Here</p>
+    <br>
+    <br>
+    <p>Using the NOT operator to show that 100 > 50 is false because it is true... this is starting to hurt my brain.</p>
+    <p id="notOperatorFalse" onclick="notOperatorFalseFunction()">Click Here</p>
+    <script src="Basic_JS_5.js"></script>
+</body>
+</html>
